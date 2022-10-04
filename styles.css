@@ -1,0 +1,139 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+.header {
+  width: max-content;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding-left: 6rem;
+  position: relative;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-arrow {
+  padding-left: 10px;
+}
+.nav-item-right {
+  padding-left: 40%;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gainsboro;
+  margin: 0;
+  font-size: 0.6rem;
+  padding: 0%;
+}
+.dropdown-features-list {
+  top: 70px;
+  left: 220px;
+}
+.dropdown-feature {
+  padding: 5px 20px;
+  margin: 0;
+  color: #696969;
+  font-weight: bold;
+}
+.img-features {
+  padding-right: 10px;
+}
+.dropdown-company-list {
+  top: 70px;
+  left: 350px;
+}
+.login-btn {
+  background-color: transparent;
+  border-style: none;
+}
+.login-btn:hover {
+  cursor: pointer;
+}
+.register-btn:hover {
+  cursor: pointer;
+}
+.register-btn {
+  background-color: transparent;
+  border-color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  padding: 0 10%;
+}
+.bodyText {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.main-img {
+  width: 100%;
+}
+.image {
+  flex: 1;
+  object-fit: scale-down;
+}
+.heading {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+.description {
+  font-size: 1rem;
+  padding-right: 30%;
+  margin: 0;
+  color: #696969;
+}
+.learnMore {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.learnMore:hover {
+  cursor: pointer;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30%;
+  width: auto;
+}
+
+.logo {
+  transform: scale(0.7);
+}

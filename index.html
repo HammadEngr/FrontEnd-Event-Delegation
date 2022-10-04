@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <img class="nav-logo" src="images/logo.svg" alt="snap-logo" />
+      <ul class="nav-item-left">
+        <li class="nav-item nav-item-features">
+          <a class="nav-link nav-link-features" href="">Features</a>
+          <img
+            class="nav-arrow nav-arrow-down"
+            src="images/icon-arrow-down.svg"
+            alt=""
+          />
+        </li>
+
+        <ul class="dropdown dropdown-features-list">
+          <li class="dropdown-feature ddf-features hide">
+            <img class="img-features" src="images/icon-todo.svg" alt="" />
+            Todo list
+          </li>
+          <li class="dropdown-feature ddf-features hide">
+            <img class="img-features" src="images/icon-calendar.svg" alt="" />
+            Calender
+          </li>
+          <li class="dropdown-feature ddf-features hide">
+            <img class="img-features" src="images/icon-reminders.svg" alt="" />
+            Reminders
+          </li>
+          <li class="dropdown-feature ddf-features hide">
+            <img class="img-features" src="images/icon-planning.svg" alt="" />
+            Planning
+          </li>
+        </ul>
+
+        <li class="nav-item nav-item-company">
+          <a href=""
+            >Company<img
+              class="nav-arrow nav-arrow-down"
+              src="images/icon-arrow-down.svg"
+              alt=""
+          /></a>
+        </li>
+        <!-- <div class="dropdown-company"> -->
+        <ul class="dropdown dropdown-company-list">
+          <li class="dropdown-feature ddf-company hide">History</li>
+          <li class="dropdown-feature ddf-company hide">Our team</li>
+          <li class="dropdown-feature ddf-company hide">Blog</li>
+        </ul>
+        <!-- </div> -->
+
+        <li class="nav-item nav-item-careers"><a href="">Careers</a></li>
+        <li class="nav-item nav-item-about"><a href="">About</a></li>
+      </ul>
+      <ul class="nav-item-right">
+        <button class="nav-item login-btn">Login</button>
+        <button class="nav-item register-btn">Register</button>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="bodyText">
+        <h1 class="heading">
+          Make <br />
+          remote work
+        </h1>
+        <p class="description">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <div>
+          <button class="learnMore">Learn more</button>
+        </div>
+
+        <div class="logos">
+          <img class="logo" src="images/client-databiz.svg" alt="" />
+          <img class="logo" src="images/client-audiophile.svg" alt="" />
+          <img class="logo" src="images/client-maker.svg" alt="" />
+          <img class="logo" src="images/client-meet.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="image">
+        <img class="main-img" src="images/image-hero-desktop.png" alt="" />
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Hammad Ahmed</a>.
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
